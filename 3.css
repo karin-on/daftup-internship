@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5% 10%;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+table, tr, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.table {
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.table__data {
+    padding: 5px;
+}
