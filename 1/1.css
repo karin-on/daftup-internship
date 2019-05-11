@@ -29,7 +29,7 @@
 .main {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-rows: 6fr repeat(6, 1fr);
+    grid-template-rows: 50% repeat(6, 1fr);
     grid-gap: 15px;
     overflow-y: auto;
 }
@@ -76,17 +76,17 @@
         /*margin-top: calc(100px + var(--grid-gap));*/
         min-height: 400px;
         overflow-y: auto;
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template-rows: 6fr repeat(6, 1fr);
-        grid-gap: 15px;
+        /*grid-column: 1 / -1;*/
+        /*display: grid;*/
+        /*grid-template-rows: 6fr repeat(6, 1fr);*/
+        /*grid-gap: 15px;*/
     }
 }
 
 @media (min-width: 600px) {
     .main {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 3fr repeat(3, 1fr);
+        grid-template-rows: 50% repeat(3, 1fr);
     }
 
     .sidebar {
