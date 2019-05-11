@@ -15,8 +15,6 @@ const items = [
 
 const app = {
     init: function init() {
-        this.phrase = '';
-
         this.table = document.querySelector('#table');
         this.form = document.querySelector('#form');
         this.input = document.querySelector('#phrase');

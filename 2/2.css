@@ -1,0 +1,83 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-black-alpha: rgba(0, 0, 0, .5);
+    --color-blue-1: #33d1d9;
+    --color-blue-2: #00C5CF;
+    --border-radius: 3px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    font-weight: 100;
+}
+
+.wrapper {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.button {
+    font-size: 50px;
+    font-weight: inherit;
+    font-family: inherit;
+    padding: 20px 40px;
+    border: none;
+    background-color: var(--color-blue-1);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    outline: none;
+    transition: .3s all;
+    color: var(--color-white);
+}
+
+.button:hover {
+    background-color: var(--color-blue-2);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-black-alpha);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal.modal--opened {
+    display: flex;
+}
+
+.modal__box {
+    background-color: var(--color-white);
+    padding: 5% 10%;
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 15px 0 var(--color-black-alpha);
+}
+
+.modal__par {
+    margin-bottom: 30px;
+}
+
+.modal__link {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    color: var(--color-black);
+    transition: .3s all;
+}
+
+.modal__link:hover {
+    color: var(--color-blue-2);
+}

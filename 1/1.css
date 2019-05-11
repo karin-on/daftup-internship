@@ -1,7 +1,7 @@
 :root {
-    --gray-3: #1A1C22;
-    --gray-2: #343A40;
-    --gray-1: #6C757D;
+    --color-gray-1: #6C757D;
+    --color-gray-2: #343A40;
+    --color-gray-3: #1A1C22;
 }
 
 * {
@@ -20,7 +20,7 @@
 }
 
 .header {
-    background-color: var(--gray-3);
+    background-color: var(--color-gray-3);
     grid-column: 1 / -1;
 }
 
@@ -33,15 +33,15 @@
 }
 
 .sidebar {
-    background-color: var(--gray-1);
+    background-color: var(--color-gray-1);
 }
 
 .content {
-    background-color: var(--gray-2);
+    background-color: var(--color-gray-2);
 }
 
 .footer {
-    background-color: var(--gray-3);
+    background-color: var(--color-gray-3);
     grid-column: 1 / -1;
 }
 

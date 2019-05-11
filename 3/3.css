@@ -1,3 +1,7 @@
+:root {
+    --color-gray: #cecece;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +9,15 @@
 }
 
 body {
+    font-size: 24px;
+}
+
+table, tr, td {
+    border: 1px solid var(--color-gray);
+    border-collapse: collapse;
+}
+
+.wrapper {
     padding: 5% 10%;
 }
 
@@ -15,27 +28,24 @@ body {
 
 .input {
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: inherit;
     font-family: inherit;
 }
 
 .button {
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 6px 30px;
+    margin-left: 5px;
+    font-size: inherit;
     background-color: transparent;
     font-family: inherit;
-}
-
-table, tr, td {
-    border: 1px solid #000000;
-    border-collapse: collapse;
+    cursor: pointer;
 }
 
 .table {
-    min-width: 300px;
+    min-width: 400px;
     margin: 0 auto;
 }
 
 .table__data {
-    padding: 5px;
+    padding: 10px 15px;
 }

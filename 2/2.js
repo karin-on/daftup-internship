@@ -5,7 +5,7 @@ const closeBtn = document.querySelector('.modal .button');
 const modal = document.querySelector('.modal');
 
 const toggleModal = () => {
-    modal.classList.toggle('opened');
+    modal.classList.toggle('modal--opened');
 };
 
 openBtn.addEventListener('click', toggleModal);
