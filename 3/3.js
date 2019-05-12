@@ -54,7 +54,6 @@ const app = {
         this.table.innerHTML = '';
         this.populateTable(filteredItems);
     }
-
 };
 
 app.init().populateTable(items);
