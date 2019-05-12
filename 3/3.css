@@ -1,5 +1,6 @@
 :root {
-    --color-gray: #cecece;
+    --color-gray-1: #cecece;
+    --color-gray-2: #bababa;
 }
 
 * {
@@ -13,7 +14,7 @@ body {
 }
 
 table, tr, td {
-    border: 1px solid var(--color-gray);
+    border: 1px solid var(--color-gray-1);
     border-collapse: collapse;
 }
 
@@ -30,11 +31,13 @@ table, tr, td {
     padding: 5px 10px;
     font-size: inherit;
     font-family: inherit;
+    border: 1px solid var(--color-gray-2);
 }
 
 .button {
-    padding: 6px 30px;
+    padding: 5px 30px;
     margin-left: 5px;
+    border: 1px solid var(--color-gray-2);
     font-size: inherit;
     background-color: transparent;
     font-family: inherit;
